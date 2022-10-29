@@ -33,17 +33,17 @@ global.APIKeys = {
 }
 
 //settings
-global.owner = ['27634090203',''] //owner number +27634090203
-global.wame = ['27634090203'] 
-global.pemilik = ['27634090203'] //owner number +27634090203
-global.premium = ['27634090203'] //premium number +27634090203
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.botname = 'ZIM BOT V4'
-global.ownernma = 'Drips' //owner name
-global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.owner = ['917389281978',''] //owner number +917389281978
+global.wame = ['917389281978'] 
+global.pemilik = ['917389281978'] //owner number +917389281978
+global.premium = ['7389281978'] //premium number +917389281978
+global.pengguna = 'legendhack' //username
+global.footer = 'LEGENDHACK BOT INC'
+global.botnma = 'LEGENDHACK INC' //bot name
+global.botname = 'LEGEND BOT V4'
+global.ownernma = 'MR LEGEND HACK' //owner name
+global.packname = 'MR LEGEND HACK' //sticker package name
+global.author = 'By LEGEND Memes' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
@@ -54,8 +54,8 @@ global.dripsrecord = false
 global.available = false
 global.unavailable = true
 global.limittot = 100,
-global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
-global.reactmoji = '🇿🇼'
+global.thumb = fs.readFileSync('')
+global.reactmoji = '🇮🇳'
 global.imgjoinrpg = fs.readFileSync('./image/joinrpg.jpg')
 global.imgmining = fs.readFileSync('./image/mining.jpg')
 global.imgdevil = fs.readFileSync('./image/img/devil.jpg')
@@ -74,13 +74,13 @@ global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=tru
 global.mess = {
     success: 'Takaenda Done!',
     admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
+    botAdmin: '*LEGEND bot  must be admin first!*',
+    owner: '*this feature is only for LEGENDbot owner*',
     group: '*Feature is only for groups!*',
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment zim bot proccessing*',
+    wait: '*whoa wait a moment LEGEND bot proccessing*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
     noPetualang: '*you are not in rpg database type #joinrpg* _ur name_'
 }
