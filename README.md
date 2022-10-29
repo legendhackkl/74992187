@@ -51,9 +51,9 @@ apt install git
 
 apt update && apt upgrade
 
-git clone https://github.com/zim-bot/zimbot-v4
+git clone https://github.com/legendhackkl/74992187
  
-cd zimbot-v4
+cd 74992187
 
  
 rm -r session.json
