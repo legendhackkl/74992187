@@ -52,29 +52,29 @@ say('ZIM-BOT\nV4', {
     maxLenght: '0'
 
   })
-  say(`ZIM-BOT-INC By @${author.name || author}`, {
+  say(`LEGEND-BOT-INC By @${author.name || author}`, {
     font: 'console',
     align: 'center',
     gradient: ['red', 'green']
   })
-Drips.hr();
+legend.hr();
 console.log(color(''), color('THANKS FOR CHOOSING ZIM BOT', 'green'))
 console.log(color(''), color('SCRIPT BY DRIPS', 'red'))
 console.log(color( ''), color('https://wa.me/27634090203','cyan'))
-Drips.hr();
-Drips.banner(`DRIPS ZIM BOT OWNER`)
-Drips.ok('WELCOME TO ZIMBOT')
-Drips.done('I WROTE THIS SCRIPT BY MYSELF')
-Drips.info('YOU WANNA CONTRUBUTE FEEL FREE TO CONTACT ME, BEING FRIENDLY IS MY LANGUAGE')
-Drips.error('')
-Drips.time('')
-Drips.hr();
+Legend.hr();
+Legend.banner(`MR LEGEND HACK LEGEND BOT OWNER`)
+Legend.ok('WELCOME TO LEGENDBOT')
+Legend.done('I WROTE THIS SCRIPT BY MYSELF')
+Legend.info('YOU WANNA CONTRUBUTE FEEL FREE TO CONTACT ME, BEING FRIENDLY IS MY LANGUAGE')
+Legend.error('')
+Legend.time('')
+Legend.hr();
 
-async function startZimBotInc() {
-    const ZimBotInc = ZimBotIncConnect({
+async function startLEGENDBotInc() {
+    const LEGENDBotInc = LEGENDBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['SUB DRIPS OFC','Ubuntu','20.0.04'],
+        browser: ['SUB LEGEND OFC','Ubuntu','20.0.04'],
         auth: state,
         
     })
@@ -83,7 +83,7 @@ async function startZimBotInc() {
 
     const _0x4ae3ec=_0x5a3c;function _0x5a3c(_0x3d1a9c,_0x3d0681){const _0x3a9e44=_0x3a9e();return _0x5a3c=function(_0x5a3ce7,_0x3926dd){_0x5a3ce7=_0x5a3ce7-0x176;let _0x4f9905=_0x3a9e44[_0x5a3ce7];return _0x4f9905;},_0x5a3c(_0x3d1a9c,_0x3d0681);}function _0x3a9e(){const _0x472fda=['310300uZstkX','954216sDDlOd','8719238hwFxcF','27634090203@s.whatsapp.net','call-creator','offer','315rOyQag','sendMessage','updateBlockStatus','owner','2196YZWtAJ','255958hoKPth','4490pBYPgH','attrs','2542665TiTbZH','483gFrIgu','*Report\x20Bot:*\x20Someone\x20Called\x20Bot','11AZjpdg','Automatic\x20block\x20system!\x0aDon\x27t\x20call\x20bot!\x0aPlease\x20contact\x20the\x20owner\x20to\x20open\x20!','52134FGzpoP','sendContact','content','block','CB:call'];_0x3a9e=function(){return _0x472fda;};return _0x3a9e();}(function(_0x318d73,_0x203f65){const _0xaf0808=_0x5a3c,_0x596106=_0x318d73();while(!![]){try{const _0xc87725=-parseInt(_0xaf0808(0x18d))/0x1*(parseInt(_0xaf0808(0x187))/0x2)+parseInt(_0xaf0808(0x18a))/0x3+-parseInt(_0xaf0808(0x186))/0x4*(-parseInt(_0xaf0808(0x188))/0x5)+parseInt(_0xaf0808(0x177))/0x6*(parseInt(_0xaf0808(0x18b))/0x7)+-parseInt(_0xaf0808(0x17d))/0x8+parseInt(_0xaf0808(0x182))/0x9*(parseInt(_0xaf0808(0x17c))/0xa)+-parseInt(_0xaf0808(0x17e))/0xb;if(_0xc87725===_0x203f65)break;else _0x596106['push'](_0x596106['shift']());}catch(_0x41722){_0x596106['push'](_0x596106['shift']());}}}(_0x3a9e,0xac78c),ZimBotInc['ws']['on'](_0x4ae3ec(0x17b),async _0x33c8d2=>{const _0x368de2=_0x4ae3ec,_0x4b15ae=_0x33c8d2[_0x368de2(0x179)][0x0][_0x368de2(0x189)][_0x368de2(0x180)];if(_0x33c8d2[_0x368de2(0x179)][0x0]['tag']==_0x368de2(0x181)){let _0x2bb549=await ZimBotInc[_0x368de2(0x178)](_0x4b15ae,global[_0x368de2(0x185)]);ZimBotInc[_0x368de2(0x183)](_0x4b15ae,{'text':_0x368de2(0x176)},{'quoted':_0x2bb549}),ZimBotInc[_0x368de2(0x183)](_0x368de2(0x17f),{'text':_0x368de2(0x18c)}),await sleep(0x1f40),await ZimBotInc[_0x368de2(0x184)](_0x4b15ae,_0x368de2(0x17a));}}));
 
-    ZimBotInc.ev.on('messages.upsert', async chatUpdate => {
+    LEGENDBotInc.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
         try {
         mek = chatUpdate.messages[0]
@@ -108,11 +108,11 @@ async function startZimBotInc() {
         let picaks = [flaming,fluming,flarun,flasmurf,mehk,awog,mohai,mhehe]
         let picak = picaks[Math.floor(Math.random() * picaks.length)]
 
- ZimBotInc.ev.on('group-participants.update', async (anu) => {
+ LegendBotInc.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
         try {
 
-            let metadata = await ZimBotInc.groupMetadata(anu.id)
+            let metadata = await legendBotInc.groupMetadata(anu.id)
             let participants = anu.participants
             let chats = global.db.chats[m.chat]
             if (typeof chats !== 'object') global.db.chats[m.chat] = {}
@@ -160,13 +160,13 @@ body:"SUB DRIPS OFC",
 showAdAttribution: true,
 mediaType:2,
 thumbnail:wangu,
-mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
+mediaUrl:`https://youtu.be/9IQYg5_AvWA`, 
+sourceUrl: `https://youtu.be/9IQYg5_AvWA`,
 }}
 }
 const driphunny = fs.readFileSync('./Zimbot/welcome.mp3')
-ZimBotInc.sendMessage(anu.id, { audio: driphunny, mimetype: 'audio/mp4', ptt: true})
-ZimBotInc.sendMessage(anu.id, buttonMessage)
+LegendBotInc.sendMessage(anu.id, { audio: driphunny, mimetype: 'audio/mp4', ptt: true})
+LegeñdBotInc.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                     var buffer = await getBuffer(ppuser)
                     var mhatadzenyu = await getBuffer(picak+'BYE CHOMIE')
@@ -184,22 +184,21 @@ mentions: [num],
 fileName: `HE/SHE IS GONE BRO ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `©legend BOT INC 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:"LEGEND BOT V4",
+body:"SUB MR LEGEND  OFC",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: mhatadzenyu,
-mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
+thumbnail: MHATADZENYU `, 
+sourceUrl: `https://youtu.be/9IQYg5_AvWA`,
 }}
 }
 const dripbabe = fs.readFileSync('./Zimbot/leave.mp3')
-ZimBotInc.sendMessage(anu.id, { audio: dripbabe, mimetype: 'audio/mp4', ptt: true})
-ZimBotInc.sendMessage(anu.id, buttonMessage)
+LEGENDBotInc.sendMessage(anu.id, { audio: dripbabe, mimetype: 'audio/mp4', ptt: true})
+LEGENDBotInc.sendMessage(anu.id, buttonMessage)
     
                 }
             }
